@@ -13,7 +13,7 @@ O exemplo que foi utilizado foi o basic origin reflection que pega os dados de u
 ## Ferramentas legais para ser utilizadas 🔧
 
 * [CORS Scanner](https://github.com/chenjj/CORScanner)
-* [Nuclei templates](https://github.com/projectdiscovery/nuclei)
+* [Nuclei](https://github.com/projectdiscovery/nuclei)
 * [Corsy - CORS Misconfiguration Scanner](https://github.com/s0md3v/Corsy)
 
 ## HTML utilizado
