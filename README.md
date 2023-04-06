@@ -15,6 +15,7 @@ O exemplo que foi utilizado foi o basic origin reflection que pega os dados de u
 * [CORS Scanner](https://github.com/chenjj/CORScanner)
 * [Nuclei](https://github.com/projectdiscovery/nuclei)
 * [Corsy - CORS Misconfiguration Scanner](https://github.com/s0md3v/Corsy)
+* [Burp Suite](https://portswigger.net/burp/communitydownload)
 
 ## HTML utilizado
 
